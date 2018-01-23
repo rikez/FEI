@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ealvarenga/Projetos/FEI/EstruturaDados/All/les.cpp
+les.h
+/home/ealvarenga/Projetos/FEI/EstruturaDados/All/les.h
+
+/home/ealvarenga/Projetos/FEI/EstruturaDados/All/les.h
+
+/home/ealvarenga/Projetos/FEI/EstruturaDados/All/main.cpp
+iostream
+-
+les.h
+/home/ealvarenga/Projetos/FEI/EstruturaDados/All/les.h
+

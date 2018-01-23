@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#f7212121</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myblue">#d12e7d32</color>
+    <color name="F7212121">#c8212121</color>
+    <color name="BLUELIGHT">#00bee4</color>
+    <color name="DARKERBLUE">#0091d2</color>
+    <color name="OPACITYDARKER">#960091d2</color>
+    <color name="OPACITYLIGHER">#c800bee4</color>
+    <color name="PinkLighter">#f06292</color>
+    <color name="MainGradient">#de6262</color>
+    <color name="ToRightGradient">#ffb88c</color>
+    <color name="Influenza">#5f2c82</color>
+    <color name="WithInfluenza">#49a09d</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blueGrad">#ff2d9a59</color>
+    <color name="secBlueGrad">#ff42959a</color>
+    <color name="darkerBlueGrad">#ff23729a</color>
+</resources>
