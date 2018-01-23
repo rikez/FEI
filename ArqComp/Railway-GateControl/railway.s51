@@ -1,0 +1,40 @@
+$io8051.h
+
+
+  Org 0000h
+    ljmp 0500h
+
+
+  Org 0100h
+    OPENGATE:
+      setb P1.0
+      CHECKCAR: jnb P1.2, CHECKCAR
+      clr P1.0
+
+  Org 0200h
+    CLOSEGATE:
+      LOOP: jnb P1.1, LOOP
+      clr P1.0
+      ret
+
+  Org 0003h
+    CARWAITING:
+      acall OPENGATE
+      reti
+
+  Org 0013h
+    TRAINPASSING:
+      acall CLOSEGATE
+      reti
+
+  Org 0500h
+    INIT:
+      mov IE, #10000101b
+      mov IP, #10000100b
+      mov P3,#0FFh
+      mov P1, #00000110b
+      clr P3.2
+      setb P3.3
+      sjmp $
+  end
+
